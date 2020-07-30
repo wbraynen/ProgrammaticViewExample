@@ -68,7 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				26B6D54524D34F1E00DF6C2A /* ProgrammaticViewDemo */,
-				26B6D55C24D34F2100DF6C2A /* Unit Tests */,
+				26B6D55C24D34F2100DF6C2A /* UnitTests */,
 				26B6D54424D34F1E00DF6C2A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,26 +86,26 @@
 			isa = PBXGroup;
 			children = (
 				26B6D54624D34F1E00DF6C2A /* AppDelegate.swift */,
-				26B6D54824D34F1E00DF6C2A /* SceneDelegate.swift */,
-				26B6D54A24D34F1E00DF6C2A /* ViewController.swift */,
-				26B6D54C24D34F1E00DF6C2A /* Main.storyboard */,
 				26B6D54F24D34F2100DF6C2A /* Assets.xcassets */,
-				26B6D55124D34F2100DF6C2A /* LaunchScreen.storyboard */,
-				26B6D55424D34F2100DF6C2A /* Info.plist */,
-				2632E59D24D3745500E96242 /* UIViewExtension.swift */,
 				2632E59F24D3748B00E96242 /* Constructible.swift */,
+				26B6D55424D34F2100DF6C2A /* Info.plist */,
+				26B6D55124D34F2100DF6C2A /* LaunchScreen.storyboard */,
+				26B6D54C24D34F1E00DF6C2A /* Main.storyboard */,
 				2632E5A124D374B800E96242 /* OurView.swift */,
+				26B6D54824D34F1E00DF6C2A /* SceneDelegate.swift */,
+				2632E59D24D3745500E96242 /* UIViewExtension.swift */,
+				26B6D54A24D34F1E00DF6C2A /* ViewController.swift */,
 			);
 			path = ProgrammaticViewDemo;
 			sourceTree = "<group>";
 		};
-		26B6D55C24D34F2100DF6C2A /* Unit Tests */ = {
+		26B6D55C24D34F2100DF6C2A /* UnitTests */ = {
 			isa = PBXGroup;
 			children = (
 				26B6D55D24D34F2100DF6C2A /* Tests.swift */,
 				26B6D55F24D34F2100DF6C2A /* Info.plist */,
 			);
-			path = "Unit Tests";
+			path = UnitTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +142,7 @@
 				26B6D55B24D34F2100DF6C2A /* PBXTargetDependency */,
 			);
 			name = ProgrammaticViewDemoProgrammaticViewDemos;
-			productName = TestTests;
+			productName = UnitTests;
 			productReference = 26B6D55924D34F2100DF6C2A /* ProgrammaticViewDemoProgrammaticViewDemos.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -375,7 +375,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Test/Info.plist;
+				INFOPLIST_FILE = ProgrammaticViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -392,7 +392,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Test/Info.plist;
+				INFOPLIST_FILE = ProgrammaticViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -410,14 +410,14 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TestTests/Info.plist;
+				INFOPLIST_FILE = UnitTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = TextNow.TestTests;
+				PRODUCT_BUNDLE_IDENTIFIER = TextNow.UnitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -431,14 +431,14 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TestTests/Info.plist;
+				INFOPLIST_FILE = UnitTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = TextNow.TestTests;
+				PRODUCT_BUNDLE_IDENTIFIER = TextNow.UnitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
